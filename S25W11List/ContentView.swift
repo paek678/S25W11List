@@ -1,21 +1,54 @@
-//
-//  ContentView.swift
-//  S25W11List
-//
-//  Created by Student on 11/11/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        MyList()
+    }
+}
+
+struct MyList: View {
+    var body: some View {
+        List {
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
         }
-        .padding()
     }
 }
 
