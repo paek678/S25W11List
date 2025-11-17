@@ -2,12 +2,12 @@ import Foundation
 
 @Observable
 
-class SongViewModel {
+final class SongViewModel {
     private var _songs: [Song] = []
     
     
     var songs: [Song]{
-        return _songs
+        _songs
     }
     
     

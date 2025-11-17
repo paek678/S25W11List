@@ -1,7 +1,7 @@
 import Foundation
 
-struct Song {
-    var id: Int
+struct Song: Identifiable {
+    let id: UUID = UUID()
     var title: String
     var singer: String
 }
