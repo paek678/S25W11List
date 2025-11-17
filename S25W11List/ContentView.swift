@@ -16,6 +16,7 @@ struct MyList: View {
             }
             
         }
+        
         .onAppear {
             viewModel.add(song: Song(title: "Golden", singer: "HUNTR/X"))
             viewModel.add(song: Song(title: "Drowning", singer: "WOODZ"))
@@ -48,6 +49,7 @@ struct TestSinger: View {
     let singer: String
     var body: some View {
         Text(singer)
+        
             .frame(maxWidth: .infinity, alignment: .leading)
             .font(.headline)
             .foregroundColor(.gray)
